@@ -16,4 +16,4 @@ export const getCategoriesAndProducts = async () => {
     getJSON(`${BASE}/products/categories`),
     getJSON(`${BASE}/products?limit=100`)
   ]);
-};
+}; 
